@@ -3,9 +3,9 @@
 
 
 #define FIREBASEURL "eq-web-applicaiton.firebaseio.com"
-#define AUTH "LY6DbxztwfPxKSpRRFekpozzgncTw0vG5bCCywVB"
-#define WIFISSID "Hello Future"
-#define PASS "turkeysausage"
+#define AUTH "API KEY GOES HERE"
+#define WIFISSID "WIFI"
+#define PASS "PASSWORD"
 
 const char* host = "https://eq-admin-2019.firebaseapp.com";
 
