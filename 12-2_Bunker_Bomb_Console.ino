@@ -1,20 +1,5 @@
 /*************************************************** 
   This is an example for our Adafruit 24-channel PWM/LED driver
-
-  Pick one up today in the adafruit shop!
-  ------> http://www.adafruit.com/products/1429
-
-  These drivers uses SPI to communicate, 3 pins are required to  
-  interface: Data, Clock and Latch. The boards are chainable
-
-  Adafruit invests time and resources providing this open source code, 
-  please support Adafruit and open-source hardware by purchasing 
-  products from Adafruit!`
-
-  Written by Limor Fried/Ladyada for Adafruit Industries.  
-  BSD license, all text above must be included in any redistribution
- ****************************************************/
-
 #include "Adafruit_TLC5947.h"
 
 // How many boards do you have chained?
@@ -190,13 +175,6 @@ void loop() {
     delay(100);
     resetFunc();
 
-//    if (buttonR_State == 0 && buttonE_State == 0){
-//      Serial.println("Reset Prop...");
-//      flicker();
-//      Serial.println("...");
-//      delay(1200);
-//      resetFunc();  //call reset
-//    }
   }
 
 
