@@ -1,5 +1,3 @@
-/*************************************************** 
-  This is an example for our Adafruit 24-channel PWM/LED driver
 #include "Adafruit_TLC5947.h"
 
 // How many boards do you have chained?
